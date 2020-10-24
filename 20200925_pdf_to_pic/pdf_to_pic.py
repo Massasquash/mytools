@@ -83,7 +83,7 @@ def save_text(output_texts):
 def save_images(output_texts):
     """演習問題を画像ファイル出力
     Arg:
-        contents(dict): 演習問題一覧。ページ数をキーとして、演習ナンバーと本文が入った辞書
+        output_texts(dict): 演習問題一覧。ページ数をキーとして、演習ナンバーと本文が入った辞書
     """
     # - convert_from_path関数には1ページごとの画像のリストが入る
     # - mkidr(exist_ok=True)にすると上書きされるっぽい
